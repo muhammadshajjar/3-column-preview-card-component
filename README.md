@@ -21,4 +21,6 @@ My challenge is build with vanilla css.
 
 ## Deploy
 
-- [Netlify](https://pedantic-wescoff-43300f.netlify.app/)
+- [Github pages](https://muhammadshajjar.github.io/3-column-preview-card-component/)
+
+- [Netlify](https://3-column-componet.netlify.app/)
