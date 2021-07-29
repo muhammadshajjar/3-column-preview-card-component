@@ -40,6 +40,7 @@ body {
 .col__panel {
     padding: 2.9rem;
     line-height: 1.7;
+    position: relative;
 }
 
 .col__panel--heading {
@@ -57,12 +58,30 @@ body {
     color: var(--Transparent-white);
 }
 
+
+/*you’ll have to make sure that the hoverable item has position:absolute;.
+
+Items with absolute positioning won’t have any effect on other elements on the page, so their size/position won’t disrupt other items.
+
+But, in order to make that work, the parent of the hoverable items has to have position:relative; so you can position properly*/
+
+
+/*
+.btn {
+    position: relative;
+    height: 48px;
+}
+*/
+
+
+/*I followed the second approach by declaring border as a transparent before hovering and after hover it get the color as required*/
+
 .learn__more--btn {
     display: inline-block;
     font-size: 0.938rem;
     padding: .8em 2.1em;
     background-color: hsl(0, 0%, 95%);
-    border: none;
+    border: 2px solid transparent;
     border-radius: 1.563rem;
     text-decoration: none;
 }
